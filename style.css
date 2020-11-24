@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body html {
+    height: 100vh;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
+} 
+.wrapper {
+    background: #40475A;
+}
+ul {
+    display: flex;
+    padding: 20px;
+   padding-left: 25%;
+    max-width: 100%;
+    /* position: fixed; */
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+.wrapper a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 600;
+    border: 1px solid white;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.wrapper a:focus,
+.wrapper a:hover {
+  background: #49505F;
+}
+
+#part1 {
+    background-image: url(./img/bg-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; 
+    padding: 210px;
+    max-width: 100%;
+}
+#part1 h1 {
+    font-size: 65px;
+    color: white;
+    text-shadow: 1px 1px grey;
+}
+#part1 h4 {
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px grey;
+}
+header {
+    padding-left: 35%;
+}
+#part2 {
+    margin: 100px 100px 20px 100px;
+}
+.container {
+    display: flex;
+}
+.bootstrap {
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.green {color: #178A27;  font-weight: 600; padding: 10px;}
+.blue {color: blue;  font-weight: 600; padding: 10px;}
+.red {color: brown;  font-weight: 600; padding: 10px;}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+.green-btn {
+    background-color: #178A27;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px;
+}
+.blue-btn {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px;
+}
+.red-btn {
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px;
+}
+.container-1{
+    display: flex;
+}
+.content {
+    margin: 50px 100px;
+    color: #666666;
+}
+.content h2 {
+    padding: 30px;
+}
+.read-links {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #F2F2F2;
+    margin-left: 70%;
+    color:  #666666;
+}
+.container-2 {
+    background-image: url(./img/bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; 
+    padding: 150px;
+    max-width: 100%;
+}
+#part3 h1 {
+    font-size: 55px;
+    color: white;
+    text-shadow: 1px 1px grey;
+}
+#part3 p {
+    font-size: 19px;
+    color: white;
+    text-shadow: 1px 1px grey;
+}
+.services {
+    padding-left: 30%;
+}
+.container-3{
+    display: flex;
+}
+.content1 {
+    margin: 50px 70px;
+    color: #666666;
+}
+.content1 h2 {
+    padding: 30px;
+}
+.read-links1 {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #F2F2F2;
+    margin-left: 35%;
+    color:  #666666;
+}
+
+.content2 {
+    margin: 50px 70px;
+    color: #666666;
+}
+.content2 h2 {
+    padding: 30px;
+    text-align: left;
+}
+
+.read-links2 {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #F2F2F2;
+    color:  #666666;
+   
+    margin-top: 10px;
+}
+#part4 {
+    background-image: url(./img/bg-3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; 
+    padding: 120px;
+    max-width: 100%;
+}
+#part4 h1 {
+    font-size: 40px;
+    text-shadow: 1px 1px grey;
+    color: white;
+    padding: 10px;
+}
+#part4 p {
+    font-size: 19px;
+    text-shadow: 1px 1px grey;
+    color: black;
+    background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 30px;
+}
+.container-5 {
+    padding-left: 20%;
+}
+.contact-form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+input, textarea{
+    width: 350px;
+    padding: 10px;
+    margin: 6px;
+    border: none;
+    background: rgba(242, 242, 242, 0.4);
+    color: black;
+}
